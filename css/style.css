@@ -1,0 +1,218 @@
+
+      /* COLORS */
+
+      /* цвет основного текста  #2E2F42 */
+      /* вторичный цвет текста  #434455 */
+      /* белый                  #FFFFFF */
+      /* акцент                 #4D5AE5 */
+      /* цвет фона(background)  #E5E5E5 */
+      /* вторичный цвет фона    #F4F4FD */
+      /* цвет текста футера     #E7E9FC */
+      /* btn background         #404BBF */
+
+
+/* ----------------------------index------------------------- */
+
+:root{
+    --body-text-color: #2E2F42;
+    --secondary-text-color: #434455;
+    --white:  #FFFFFF;
+    --accent: #4D5AE5;
+    --background-color: #E5E5E5;
+    --secondary-background-color: #F4F4FD;
+    --color-footer-text: #E7E9FC;
+    --btn-background: #404BBF;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before ,
+*::after {
+    box-sizing: inherit;
+}
+
+body{
+    color: var(--body-text-color);
+    background-color: var(--white);
+    font-family: 'Roboto', sans-serif, serif;
+    letter-spacing: 0.02em;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+ul{
+    list-style: none;
+}
+
+/* Header */
+
+.logo{
+    color: var(--body-text-color);
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+}
+
+.logo-web{
+    color: var(--accent);
+}
+
+.link{
+    text-decoration: none;
+    color: var(--body-text-color);
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.link:hover,
+.link:focus{
+    color: var(--accent);
+
+}
+
+.contacts{
+    text-decoration: none;
+    color: var(--body-text-color);
+
+    font-size: 16px;
+    line-height: 1.5;
+}
+.contacts:hover,
+.contacts:focus{
+    color: var(--accent);
+}
+
+
+/* HERO */
+
+
+.hero{
+    background-color: var(--body-text-color);
+    width: 1440px;
+}
+
+.hero-title{
+    color: var(--white);
+
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.07;
+
+    text-align: center;
+}
+
+.btn{
+    color: var(--white);
+    background-color: var(--accent);
+    font-family: inherit;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.04em;
+
+    text-align: center;
+    cursor: pointer;
+}
+.btn:hover,
+.btn:focus{
+    color: var(--white);
+    background-color: var(--btn-background);
+}
+
+
+/* Section One */
+
+.section-title{
+   color: var(--body-text-color); 
+
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+
+    text-align: center;
+}
+
+.title{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+
+.features-list .title{
+    color: var(--body-text-color);
+}
+
+.text{
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Secion Two */
+
+
+/* Section Three */
+
+.our-team {
+    background-color: var(--secondary-background-color);
+}
+
+
+/* Footer */
+
+
+div.footer{
+    background-color: var(--body-text-color);
+    width: 1440px;
+}
+
+.logo-footer a{
+    text-decoration: none;
+    color: var(--secondary-background-color);
+    font-family: 'Raleway', sans-serif;
+
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+
+
+}
+.footer-web{
+    color: var(--accent);
+}
+.logo-footer p{
+    color: var(--color-footer-text);
+}
+
+
+
+/* -------------------------Portfolio------------------------------- */
+
+
+/* Filtr section */
+
+.button{
+    color: var(--accent);
+    background-color: var(--secondary-background-color);
+    font-family: inherit;
+    cursor: pointer;
+}
+.button:hover,
+.button:focus{
+    color: var(--white);
+    background-color: var(--accent);
+}
+
