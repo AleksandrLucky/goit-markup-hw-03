@@ -44,12 +44,16 @@ body{
     font-weight: 400;
 }
 
-ul{
+h1,h2,h3,ul,p{
     list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 
 /* Header */
+
+
 
 .logo{
     color: var(--body-text-color);
@@ -92,11 +96,13 @@ ul{
 }
 
 
+
 /* HERO */
 
 
 .hero{
     background-color: var(--body-text-color);
+    text-align: center;
 }
 
 .hero-title{
@@ -105,8 +111,9 @@ ul{
     font-weight: 600;
     font-size: 56px;
     line-height: 1.07;
+    margin-bottom: 48px;
 
-    text-align: center;
+    
 }
 
 .btn{
@@ -146,6 +153,7 @@ ul{
     line-height: 1.11;
 
     text-align: center;
+    margin-bottom: 72px;
 }
 
 .title{
@@ -153,6 +161,7 @@ ul{
     font-size: 20px;
     line-height: 1.2;
     text-decoration: none;
+    margin-bottom: 8px;
 }
 
 
@@ -164,6 +173,7 @@ ul{
     color: var(--secondary-text-color);
     font-size: 16px;
     line-height: 1.5;
+    margin-bottom: 120px;
 }
 
 /* Secion Two */
