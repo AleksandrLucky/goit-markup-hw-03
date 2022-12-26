@@ -48,6 +48,7 @@ ul{
     list-style: none;
 }
 
+
 /* Header */
 
 .logo{
@@ -76,7 +77,6 @@ ul{
 .link:hover,
 .link:focus{
     color: var(--accent);
-
 }
 
 .contacts{
@@ -97,7 +97,6 @@ ul{
 
 .hero{
     background-color: var(--body-text-color);
-    width: 1440px;
 }
 
 .hero-title{
@@ -111,16 +110,23 @@ ul{
 }
 
 .btn{
+    display: inline-block;
     color: var(--white);
     background-color: var(--accent);
     font-family: inherit;
+    text-align: center;
+    padding: 16px 32px;
 
     font-weight: 600;
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.04em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    min-width: 170px;
+    height: 51px;
+    
 
-    text-align: center;
     cursor: pointer;
 }
 .btn:hover,
@@ -175,7 +181,6 @@ ul{
 
 div.footer{
     background-color: var(--body-text-color);
-    width: 1440px;
 }
 
 .logo-footer a{
@@ -205,14 +210,43 @@ div.footer{
 /* Filtr section */
 
 .button{
+    display: inline-block;
     color: var(--accent);
     background-color: var(--secondary-background-color);
     font-family: inherit;
     cursor: pointer;
+
+    text-align: center;
+    padding: 8px 16px;
+    border: 1px solid var(--color-footer-text);
+    border-radius: 4px;
+    min-height: 48px;
 }
+
+.one{
+    min-width: 69px;
+}
+.two{
+    min-width: 116px;
+}
+.three{
+    min-width: 78px;
+}
+.four{
+    min-width: 101px;
+}
+.five{
+    min-width: 126px;
+}
+
 .button:hover,
 .button:focus{
     color: var(--white);
     background-color: var(--accent);
 }
 
+/* Galery section */
+
+.galery a{
+    text-decoration: none;
+}
